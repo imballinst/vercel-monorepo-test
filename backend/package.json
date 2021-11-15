@@ -1,17 +1,21 @@
 {
-  "name": "backend",
-  "version": "0.0.0",
-  "private": true,
-  "main": "bin/www",
+  "name": "random-gofood-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "start": "node ./bin/www"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "vercel --prod"
   },
+  "author": "ans4175",
+  "license": "MIT",
   "dependencies": {
-    "cookie-parser": "~1.4.4",
-    "debug": "~2.6.9",
-    "express": "~4.16.1",
-    "http-errors": "~1.6.3",
-    "jade": "~1.11.0",
-    "morgan": "~1.9.1"
+    "@turf/destination": "^6.5.0",
+    "@turf/helpers": "^6.5.0",
+    "@vercel/node": "^1.12.1",
+    "axios": "^0.24.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "uuid": "^8.3.2"
   }
 }
