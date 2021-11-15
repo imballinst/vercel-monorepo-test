@@ -1,6 +1,5 @@
 const express = require('express');
 const app = express();
-const RandomGoFood = require('./RandomGoFood');
 const cors = require('cors')
 
 app.use(express.json({ extended: false}));
